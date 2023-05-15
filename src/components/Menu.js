@@ -8,7 +8,7 @@ function Menu() {
         <>
             <Navbar bg="dark" variant="dark" fixed="top">
                 <Container>
-                    <Navbar.Brand href="/"><ImBlogger2 />  Blog Application</Navbar.Brand>
+                    <Navbar.Brand href="/"><ImBlogger2 /> Blog</Navbar.Brand>
                     <Nav className="me-auto">
                         <Nav.Link href="/">Home</Nav.Link>
                         <Nav.Link href="/Blogs">Blogs</Nav.Link>

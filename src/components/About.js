@@ -1,6 +1,14 @@
-
+import { Container, Row } from "react-bootstrap"
+import about from "../images/about.svg"
 export const About = () => {
     return (
-        <div>About</div>
+        <Container>
+            <Row className="justify-content-center">
+                <h3 className="text-center">About</h3>
+                <hr/> 
+                <img src={about} alt="about"  className="img-fluid"  style={{ width:"85%"}} />
+            </Row>
+
+        </Container>
     )
 }
