@@ -8,7 +8,8 @@ export const Blogs = () => {
     useEffect(() => {
         const result = blogs.filter((item) => item.title.includes(search))
         setFilterBlog(result);
-    }, [search]);
+        // eslint-disable-next-line
+    }, []);
     return (
         <Container>
             <Row className="justify-content-center">
