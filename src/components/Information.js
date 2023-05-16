@@ -40,9 +40,7 @@
 //     )
 // }
 
-import React from 'react'
-
-export const Information = () => {
+export function Information() {
     return (
         <div>Blogs</div>
     )
