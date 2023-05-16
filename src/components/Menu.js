@@ -24,11 +24,11 @@ function Menu() {
                     <Navbar.Toggle />
                     <Navbar.Collapse className="justify-content-end">
                         <Navbar.Text>
-
-                            <Link className="text-decoration-none  text-secondary" to="/blogs">
-                                About
-                            </Link>
-
+                            <Nav.Link>
+                                <Link className="text-decoration-none text-secondary" to="/About">
+                                    About
+                                </Link>
+                            </Nav.Link>
                         </Navbar.Text>
                     </Navbar.Collapse>
                 </Container>
