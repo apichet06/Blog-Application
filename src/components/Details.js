@@ -15,8 +15,8 @@ export const Details = () => {
         setImage(result.image_url)
         setContent(result.content)
         setAuthor(result.author)
-        // eslint-disable-next-line
-    }, []);
+
+    }, [id]);
     return (
         <Container>
             <Row>

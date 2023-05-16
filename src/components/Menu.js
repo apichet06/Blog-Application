@@ -10,13 +10,25 @@ function Menu() {
                 <Container>
                     <Navbar.Brand href="/"><ImBlogger2 /> Blog</Navbar.Brand>
                     <Nav className="me-auto">
-                        <Nav.Link href="/">Home</Nav.Link>
-                        <Nav.Link href="/Information">Blogs</Nav.Link>
+                        <Nav.Link>
+                            <Link className="text-decoration-none text-secondary" to="/">
+                                Home
+                            </Link>
+                        </Nav.Link>
+                        <Nav.Link>
+                            <Link className="text-decoration-none text-secondary" to="/blogs">
+                                Blogs
+                            </Link>
+                        </Nav.Link>
                     </Nav>
                     <Navbar.Toggle />
                     <Navbar.Collapse className="justify-content-end">
                         <Navbar.Text>
-                            เกี่ยวกับเรา: <Link to="/about">About</Link>
+
+                            <Link className="text-decoration-none  text-secondary" to="/blogs">
+                                About
+                            </Link>
+
                         </Navbar.Text>
                     </Navbar.Collapse>
                 </Container>
