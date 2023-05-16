@@ -24,7 +24,7 @@ export const Blogs = () => {
                         <Col md="12" key={blog.id}>
                             <Figure>
                                 <Figure.Caption>
-                                    <Link to={`/blogs/${blog.id}`} style={{ textDecoration: 'none' }} className="text-secondary">
+                                    <Link to={`/blog/${blog.id}`} style={{ textDecoration: 'none' }} className="text-secondary">
                                         <h3>{blog.title}</h3>
                                         {blog.content.substring(0, 400)}
                                     </Link>

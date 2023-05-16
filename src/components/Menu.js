@@ -11,7 +11,7 @@ function Menu() {
                     <Navbar.Brand href="/"><ImBlogger2 /> Blog</Navbar.Brand>
                     <Nav className="me-auto">
                         <Nav.Link href="/">Home</Nav.Link>
-                        <Nav.Link href="/blogs">Blogs</Nav.Link>
+                        <Nav.Link href="/blog">Blogs</Nav.Link>
                     </Nav>
                     <Navbar.Toggle />
                     <Navbar.Collapse className="justify-content-end">

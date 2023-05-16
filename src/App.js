@@ -19,10 +19,10 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />}> </Route>
           <Route path="/about" element={<About />}> </Route>
-          <Route path="/blogs" element={<Blogs />}> </Route>
+          <Route path="/blog" element={<Blogs />}> </Route>
           <Route path="*" element={<Notfound />}> </Route>
           <Route path="/home" element={<Navigate to="/" />}> </Route>
-          <Route path="/blogs/:id" element={<Details />}></Route>
+          <Route path="/blog/:id" element={<Details />}></Route>
         </Routes>
       </BrowserRouter>
     </>
