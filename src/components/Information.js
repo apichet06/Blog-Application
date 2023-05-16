@@ -42,7 +42,7 @@
 
 import React from 'react'
 
-export const Blogs = () => {
+export const Information = () => {
     return (
         <div>Blogs</div>
     )
