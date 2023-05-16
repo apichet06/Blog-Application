@@ -11,12 +11,12 @@ function Menu() {
                     <Navbar.Brand href="/"><ImBlogger2 /> Blog</Navbar.Brand>
                     <Nav className="me-auto">
                         <Nav.Link href="/">Home</Nav.Link>
-                        <Nav.Link href="/Blogs">Blogs</Nav.Link>
+                        <Nav.Link href="/blogs">Blogs</Nav.Link>
                     </Nav>
                     <Navbar.Toggle />
                     <Navbar.Collapse className="justify-content-end">
                         <Navbar.Text>
-                            เกี่ยวกับเรา: <Link to="/About">About</Link>
+                            เกี่ยวกับเรา: <Link to="/about">About</Link>
                         </Navbar.Text>
                     </Navbar.Collapse>
                 </Container>

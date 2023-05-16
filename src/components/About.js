@@ -6,7 +6,7 @@ export const About = () => {
             <Row className="justify-content-center">
                 <h3 className="text-center">About</h3>
                 <hr/> 
-                <img src={about} alt="about"  className="img-fluid"  style={{ width:"85%"}} />
+                <img src={about} alt="about"  className="img-fluid"  style={{ width:"75%"}} />
             </Row>
 
         </Container>
