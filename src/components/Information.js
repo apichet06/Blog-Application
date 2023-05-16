@@ -40,7 +40,7 @@
 //     )
 // }
 
-export function Information() {
+export const Information = () => {
     return (
         <div>Blogs</div>
     )

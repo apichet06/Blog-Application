@@ -1,7 +1,7 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Home } from "./components/Home";
-import Information from "./components/Information";
+import { Information } from "./components/Information";
 import { About } from "./components/About";
 import { Notfound } from "./components/Notfound";
 import { Details } from "./components/Details";
@@ -19,7 +19,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />}> </Route>
           <Route path="/about" element={<About />}> </Route>
-          <Route path="/Information" element={<Information />}> </Route>
+          <Route path="/information" element={<Information />}> </Route>
           <Route path="/home" element={<Navigate to="/" />}> </Route>
           <Route path="/blog/:id" element={<Details />}></Route>
           <Route path="*" element={<Notfound />}> </Route>
